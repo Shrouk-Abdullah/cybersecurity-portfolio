@@ -9,7 +9,7 @@ import About from './components/About';
 export default function Home() {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
       <Navbar />
       <About />
       <Features />

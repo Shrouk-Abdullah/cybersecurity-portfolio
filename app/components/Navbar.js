@@ -50,14 +50,21 @@ export default function Hero() {
     <>
       {/* Top Navbar */}
       <AppBar
-        position='sticky'
+        // position='sticky'
         sx={{
           background: 'rgba(0, 0, 0, 0.7)', // Glassmorphism effect
           backdropFilter: 'blur(10px)',
           boxShadow: 'none',
           borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
           width: '90vw',
-          margin: 'auto',
+          position: 'fixed',
+          // margin: 'auto',
+          left: '5%',
+          right: '5%',
+          borderRadius: '20px',
+          borderTopRightRadius: 0,
+          borderTopLeftRadius: 0,
+          // top: 0,
         }}
       >
         <Toolbar

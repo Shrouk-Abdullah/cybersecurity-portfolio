@@ -9,6 +9,7 @@ import {
   useMediaQuery,
   useTheme,
 } from '@mui/material';
+import Hero from './Navbar';
 
 export default function HeroSection() {
   const theme = useTheme();
@@ -17,7 +18,7 @@ export default function HeroSection() {
   return (
     <Box
       sx={{
-        height: { xs: 'auto', sm: '80vh' }, // Adjusts height for smaller screens
+        height: { xs: 'auto', sm: '100vh' }, // Adjusts height for smaller screens
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
@@ -30,6 +31,7 @@ export default function HeroSection() {
         overflow: 'hidden',
       }}
     >
+      <Hero />
       {/* Cybersecurity Background Overlay */}
       <Box
         sx={{
