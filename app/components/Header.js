@@ -25,6 +25,10 @@ export default function HeroSection() {
         justifyContent: 'center',
         textAlign: 'center',
         background: 'linear-gradient(to right, #0F2027, #203A43, #2C5364)',
+        backgroundImage: "url('/hero.png')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
         color: 'white',
         padding: { xs: 3, sm: 4 },
         position: 'relative',
@@ -51,7 +55,12 @@ export default function HeroSection() {
       {/* Main Content */}
       <Box sx={{ position: 'relative', zIndex: 1 }}>
         <SecurityIcon
-          sx={{ fontSize: isMobile ? 70 : 100, color: '#00C6FF', mb: 2 }}
+          sx={{
+            fontSize: isMobile ? 70 : 100,
+            color: '#00C6FF',
+            mb: 2,
+            mt: 7,
+          }}
         />
 
         <Typography
@@ -61,7 +70,7 @@ export default function HeroSection() {
             textShadow: '0px 0px 10px rgba(0,198,255,0.6)',
           }}
         >
-          Secure Your Web Applications
+          Shrouk Abdullah
         </Typography>
 
         <Typography

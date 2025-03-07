@@ -52,9 +52,9 @@ export default function Hero() {
       <AppBar
         // position='sticky'
         sx={{
-          background: 'rgba(0, 0, 0, 0.7)', // Glassmorphism effect
+          background: 'rgba(0, 0, 0, 0.5)', // Glassmorphism effect
           backdropFilter: 'blur(10px)',
-          boxShadow: 'none',
+          // boxShadow: 'none',
           borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
           width: '90vw',
           position: 'fixed',

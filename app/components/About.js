@@ -5,16 +5,21 @@ import SecurityIcon from '@mui/icons-material/Security';
 export default function About() {
   return (
     <Box
-      sx={{ p: 5, textAlign: 'center', background: '#1A1A1A', color: 'white' }}
+      sx={{
+        p: 5,
+        textAlign: 'center',
+        background: '#040f13',
+        color: 'white',
+      }}
     >
       <Typography variant='h4' fontWeight='bold' gutterBottom>
         About <span style={{ color: '#00C6FF' }}>Me</span>
       </Typography>
       <Typography variant='body1' sx={{ maxWidth: 800, mx: 'auto', mb: 4 }}>
-        I am ethical hackers and penetration testers dedicated to
-        securing web applications from cyber threats. My expertise spans
-        **network security, web security, and reverse engineering**, ensuring
-        that businesses stay protected against the latest cyber attacks.
+        I am ethical hackers and penetration testers dedicated to securing web
+        applications from cyber threats. My expertise spans **network security,
+        web security, and reverse engineering**, ensuring that businesses stay
+        protected against the latest cyber attacks.
       </Typography>
 
       {/* Features */}
